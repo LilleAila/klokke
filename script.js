@@ -1,5 +1,7 @@
 $('document').ready(function () {
     weather();
+    $('.klokke').css('width', `${eval($('.klokke').css('width').slice(0, -2)) - 20}px`);
+    $('.klokke').css('height', `${eval($('.klokke').css('height').slice(0, -2)) - 20}px`);
 });
 var dager = ['Søndag', 'Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag']
 

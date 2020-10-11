@@ -10,8 +10,8 @@ body {
 }
 
 .klokke {
-    width: 70vmin;
-    height: 70vmin;
+    width: 100vmin;
+    height: 100vmin;
     border-radius: 100%;
     border: 5px solid #555555;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
