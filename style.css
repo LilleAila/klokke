@@ -195,7 +195,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 90%;
 }
 
 .day,
@@ -231,7 +230,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     border: none;
-    font-size: 90%;
 }
 
 .hoursDigital,
@@ -265,7 +263,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     border: none;
-    font-size: 90%;
 }
 
 .grader,
@@ -296,5 +293,4 @@ body {
     padding: 0;
     box-sizing: border-box;
     border: none;
-    font-size: 90%;
 }
