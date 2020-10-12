@@ -1,105 +1,104 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #444444;
-    display: grid;
-    place-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #444444;
+  display: grid;
+  place-items: center;
 }
 
 .klokke {
-    width: 100vmin;
-    height: 100vmin;
-    border-radius: 100%;
-    border: 5px solid #555555;
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 0px 0px 10px 10px #555555,
-        0px 0px 2px 2px #555555 inset;
-    position: relative;
+  width: 100vmin;
+  height: 100vmin;
+  border-radius: 100%;
+  border: 5px solid #555555;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 0px 10px 10px #555555, 0px 0px 2px 2px #555555 inset;
+  position: relative;
 }
 
 .tall div {
-    color: white;
-    font-weight: bolder;
-    font-size: 30px;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
 }
 
 #en {
-    position: absolute;
-    top: 10%;
-    right: 27%;
+  position: absolute;
+  top: 10%;
+  right: 27%;
 }
 
 #to {
-    position: absolute;
-    top: 25%;
-    right: 10%;
+  position: absolute;
+  top: 25%;
+  right: 10%;
 }
 
 #tre {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #fire {
-    position: absolute;
-    bottom: 25%;
-    right: 10%;
+  position: absolute;
+  bottom: 25%;
+  right: 10%;
 }
 
 #fem {
-    position: absolute;
-    bottom: 10%;
-    right: 27%;
+  position: absolute;
+  bottom: 10%;
+  right: 27%;
 }
 
 #seks {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #syv {
-    position: absolute;
-    bottom: 10%;
-    left: 27%;
+  position: absolute;
+  bottom: 10%;
+  left: 27%;
 }
 
 #atte {
-    position: absolute;
-    bottom: 25%;
-    left: 10%;
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
 }
 
 #ni {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translate(50%, -50%)
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
 }
 
 #ti {
-    position: absolute;
-    top: 25%;
-    left: 10%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
 }
 
 #elleve {
-    position: absolute;
-    top: 10%;
-    left: 27%;
+  position: absolute;
+  top: 10%;
+  left: 27%;
 }
 
 #tolv {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 50%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 
 /* #border {
@@ -113,184 +112,188 @@ body {
 } */
 
 .centerDot {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    background-color: #ff0066;
-    width: 10%;
-    height: 10%;
-    border-radius: 100%;
-    z-index: 4;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: #ff0066;
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  z-index: 4;
 }
 
 .centerDotWhite {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    background-color: #FFFFFF;
-    width: 5%;
-    height: 5%;
-    border-radius: 100%;
-    z-index: 5;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: #ffffff;
+  width: 5%;
+  height: 5%;
+  border-radius: 100%;
+  z-index: 5;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hours {
-    height: 60%;
-    background-color: black;
-    width: 2%;
-    border-radius: 100px;
-    position: absolute;
-    top: -10%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    clip-path: inset(0 0 50% 0);
-    z-index: 2;
+  height: 60%;
+  background-color: black;
+  width: 2%;
+  border-radius: 100px;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  clip-path: inset(0 0 50% 0);
+  z-index: 2;
 }
 
 .minutes {
-    height: 80%;
-    background-color: black;
-    width: 2%;
-    border-radius: 100px;
-    position: absolute;
-    top: -30%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    clip-path: inset(0 0 50% 0);
-    z-index: 1;
+  height: 80%;
+  background-color: black;
+  width: 2%;
+  border-radius: 100px;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  clip-path: inset(0 0 50% 0);
+  z-index: 1;
 }
 
 .seconds {
-    height: 75%;
-    background-color: #ff0000;
-    width: 0.5%;
-    border-radius: 100px;
-    position: absolute;
-    top: -25%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    clip-path: inset(0 0 30% 0);
-    z-index: 3;
+  height: 75%;
+  background-color: #ff0000;
+  width: 0.5%;
+  border-radius: 100px;
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  clip-path: inset(0 0 30% 0);
+  z-index: 3;
 }
 
 .date {
-    position: absolute;
-    bottom: 30%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    width: 20%;
-    height: 5%;
-    border: none;
-    background-color: #FFF;
-    color: #000;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 25%;
+  height: 10%;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 30px;
 }
 
 .day,
 .month,
 .year {
-    background: linear-gradient(to bottom, #444, #FFF, #FFF, #444);
-    width: 100%;
-    height: 100%;
-    display: grid;
-    place-items: center;
-    margin: 0;
-    padding: 0;
+  background: linear-gradient(to bottom, #444, #fff, #fff, #444);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .month {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .digital {
-    position: absolute;
-    top: 50%;
-    right: 20%;
-    transform: translate(50%, -50%);
-    height: 5%;
-    width: 20%;
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translate(50%, -50%);
+  height: 10%;
+  width: 25%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 30px;
 }
 
 .hoursDigital,
 .minutesDigital,
 .secondsDigital {
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to bottom, #444, #FFF, #FFF, #444);
-    display: grid;
-    place-items: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, #444, #fff, #fff, #444);
+  display: grid;
+  place-items: center;
 }
 
 .minutesDigital {
-    border-right: 2px dotted black;
-    border-left: 2px dotted black;
+  border-right: 2px dotted black;
+  border-left: 2px dotted black;
 }
 
 .weather {
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    height: 5%;
-    width: 15%;
-    background: linear-gradient(to bottom, #444, #FFF, #FFF, #444);
-    color: black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  height: 10%;
+  width: 20%;
+  background: linear-gradient(to bottom, #444, #fff, #fff, #444);
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 30px;
 }
 
 .grader,
 .wind {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    place-items: center;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
 }
 
 .grader {
-    border-right: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .dayOfWeek {
-    position: absolute;
-    top: 20%;
-    right: 50%;
-    transform: translate(50%, 50%);
-    height: 5%;
-    width: 15%;
-    background: linear-gradient(to bottom, #444, #FFF, #FFF, #444);
-    color: black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
+  position: absolute;
+  top: 20%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  height: 10%;
+  width: 20%;
+  background: linear-gradient(to bottom, #444, #fff, #fff, #444);
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 30px;
 }
