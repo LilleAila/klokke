@@ -1,8 +1,26 @@
 $('document').ready(function () {
     weather();
-    $('.klokke').css('width', `${eval($('.klokke').css('width').slice(0, -2)) - 50}px`);
-    $('.klokke').css('height', `${eval($('.klokke').css('height').slice(0, -2)) - 50}px`);
+    if (window.innerHeight > window.innerWidth) {
+        var vmin = window.innerWidth;
+    } else if (window.innerHeight < window.innerWidth) {
+        var vmin = window.innerHeight;
+    } else {
+        var vmin = window.innerHeight || window.innerWidth;
+    }
+    $('.klokke').css('width', `${vmin - 50}px`);
+    $('.klokke').css('height', `${vmin - 50}px`);
 });
+window.onresize = function () {
+    if (window.innerHeight > window.innerWidth) {
+        vmin = window.innerWidth;
+    } else if (window.innerHeight < window.innerWidth) {
+        vmin = window.innerHeight;
+    } else {
+        vmin = window.innerHeight || window.innerWidth;
+    }
+    $('.klokke').css('width', `${vmin - 50}px`);
+    $('.klokke').css('height', `${vmin - 50}px`);
+}
 var dager = ['Søndag', 'Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag']
 
 function setNewDate() {
