@@ -22,7 +22,7 @@ body {
 .tall div {
   color: white;
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 #en {
@@ -194,7 +194,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .day,
@@ -230,7 +230,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   border: none;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .hoursDigital,
@@ -264,7 +264,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   border: none;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .grader,
@@ -295,7 +295,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   border: none;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .stoppeKlokke {
@@ -311,6 +311,6 @@ body {
   right: 15%;
   display: grid;
   place-items: center;
-  font-size: 2em;
+  font-size: 3em;
   color: white;
 }
